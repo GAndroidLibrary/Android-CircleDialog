@@ -21,7 +21,7 @@ ext {
             baseRvAdapter: "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40"
     ]
 
-    publish = [
-            version: "3.0.5"
-    ]
+//    publish = [
+//            version: "3.0.5"
+//    ]
 }

@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
-apply plugin: 'com.novoda.bintray-release'
+// apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
@@ -31,11 +31,11 @@ dependencies {
     compileOnly rootProject.ext.dependencies.cardview
 }
 
-publish {
-    userOrg = 'mylhyl'
-    groupId = 'com.mylhyl'
-    artifactId = 'circleDialog'
-    publishVersion = rootProject.ext.publish.version
-    desc = 'circleDialog ios style'
-    website = "https://github.com/mylhyl/Android-CircleDialog"
-}
+//publish {
+//    userOrg = 'mylhyl'
+//    groupId = 'com.mylhyl'
+//    artifactId = 'circleDialog'
+//    publishVersion = rootProject.ext.publish.version
+//    desc = 'circleDialog ios style'
+//    website = "https://github.com/mylhyl/Android-CircleDialog"
+//}
